@@ -19,7 +19,7 @@ export const Card = ({ title, price, redactedPrice, para, popular, features = []
           <hr />
           <div className="card-content">
             {features.map((feature, index) => (
-              <li className="list-unstyled">
+              <li key={index} className="list-unstyled">
                 <span className="fa-li">
                   <i className="fas fa-check-circle"></i>
                 </span>

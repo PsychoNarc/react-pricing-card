@@ -7,12 +7,12 @@
   height: 100%;
 }
 
-.banner{
-    margin-left: 107px;
-    box-sizing: border-box;
-    color: green;
-    font-size: 17px;
-    /* background: lightgreen; */
+.banner {
+  margin-left: 55px;
+  box-sizing: border-box;
+  color: green;
+  font-size: 11px;
+  /* background: lightgreen; */
 }
 
 .period {
@@ -99,11 +99,10 @@ hr {
   .card:hover .btn {
     opacity: 1;
   }
-  
 }
 
 @media screen and (max-width: 700px) {
-    li {
-        font-size: 22px;
-      }
+  li {
+    font-size: 22px;
+  }
 }

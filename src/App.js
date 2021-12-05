@@ -57,7 +57,7 @@ function App() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         <br /> elusmod tempor incididunt ut labore et dolore magna aliqua.
       </h6>
-      <div className="row cardCustom">
+      <div className="container row  cardCustom">
         {/* <Card {...plans[0]} />
         <Card {...plans[1]} />
         <Card {...plans[2]} /> */}
