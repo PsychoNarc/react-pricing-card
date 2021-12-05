@@ -1,0 +1,109 @@
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  height: 100%;
+}
+
+.banner{
+    margin-left: 107px;
+    box-sizing: border-box;
+    color: green;
+    font-size: 17px;
+    /* background: lightgreen; */
+}
+
+.period {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.period2 {
+  font-size: 18px;
+  margin-top: -27px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #a1a5a1;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.fa-li {
+  left: 0;
+  /* position: absolute; */
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+  margin-left: 32px;
+}
+
+li {
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: #3c0d99;
+  font-size: 18px;
+}
+
+hr {
+  margin: 1.5rem 0;
+  width: 100%;
+}
+
+.card-title {
+  margin: 0.5rem 0;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.card-price {
+  font-size: 40px;
+  margin: 0;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+.btn {
+  font-size: 80%;
+  border-radius: 10px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+  color: #fff;
+  background: #3c0d99;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .card:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+  }
+  .card:hover .btn {
+    opacity: 1;
+  }
+  
+}
+
+@media screen and (max-width: 700px) {
+    li {
+        font-size: 22px;
+      }
+}
