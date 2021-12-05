@@ -8,7 +8,7 @@ export const Card = ({ title, price, redactedPrice, para, popular, features = []
         <div className="card-body d-flex flex-column">
           <h5 className="card-title text-muted text-uppercase text-left">
             {title}
-            <span className="banner">{popular}</span>
+            <span className={popular?'banner':null}>{popular}</span>
           </h5>
           <h6 className="card-price text-left">
             ${price}

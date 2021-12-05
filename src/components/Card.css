@@ -8,11 +8,13 @@
 }
 
 .banner {
-  margin-left: 55px;
+  margin-left: 41px;
+  padding: 7px;
   box-sizing: border-box;
+  border-radius: 4px;
   color: green;
   font-size: 11px;
-  /* background: lightgreen; */
+  background: lightgreen;
 }
 
 .period {
@@ -104,5 +106,14 @@ hr {
 @media screen and (max-width: 700px) {
   li {
     font-size: 22px;
+  }
+  .banner{
+    margin-left: 174px;
+  }
+}
+
+@media screen and (max-width: 707px){
+  .banner{
+    margin-left: 174px;
   }
 }
