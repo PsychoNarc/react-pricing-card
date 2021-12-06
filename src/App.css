@@ -16,6 +16,7 @@
 .App > h6 {
   color: #fff;
   margin-bottom: 55px;
+  font-weight: 400;
 }
 
 .cardCustom {
@@ -41,7 +42,7 @@
 
 @media (min-width:992px) and (max-width:1200px) {
   .cardCustom {
-    margin-left: 30px;
+    margin-left: 69px;
   }
 }
 
