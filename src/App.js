@@ -58,9 +58,6 @@ function App() {
         <br /> elusmod tempor incididunt ut labore et dolore magna aliqua.
       </h6>
       <div className="container row  cardCustom">
-        {/* <Card {...plans[0]} />
-        <Card {...plans[1]} />
-        <Card {...plans[2]} /> */}
         {plans.map((plan) => (
           <Card {...plan} key={plan.title} />
         ))}

@@ -113,13 +113,13 @@ hr {
   }
 }
 
-@media (min-width: 576px) and (max-width: 768px){
+@media (min-width: 576px) and (max-width: 768px) {
   .banner {
     margin-left: 174px;
   }
 }
 
-@media (min-width: 769px) and (max-width: 992px){
+@media (min-width: 769px) and (max-width: 992px) {
   .banner {
     margin-left: 354px;
   }
@@ -137,7 +137,7 @@ hr {
     padding: 4px;
     font-size: 10px;
   }
-  .period2{
+  .period2 {
     font-size: 17px;
     margin-top: -24px;
   }

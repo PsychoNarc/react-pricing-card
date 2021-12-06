@@ -1,14 +1,21 @@
 import React from "react";
 import "./Card.css";
 
-export const Card = ({ title, price, redactedPrice, para, popular, features = [] }) => {
+export const Card = ({
+  title,
+  price,
+  redactedPrice,
+  para,
+  popular,
+  features = [],
+}) => {
   return (
     <div className="col-12 col-lg-4">
       <div className="card mb-5 mb-lg-0">
         <div className="card-body d-flex flex-column">
           <h5 className="card-title text-muted text-uppercase text-left">
             {title}
-            <span className={popular?'banner':null}>{popular}</span>
+            <span className={popular ? "banner" : null}>{popular}</span>
           </h5>
           <h6 className="card-price text-left">
             ${price}

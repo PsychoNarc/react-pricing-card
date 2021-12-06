@@ -28,30 +28,29 @@
   display: none;
 }
 
-@media (min-width:576px) and (max-width:768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .cardCustom {
     margin-left: 35px;
   }
 }
 
-@media (min-width:769px) and (max-width:992px) {
+@media (min-width: 769px) and (max-width: 992px) {
   .cardCustom {
     margin-left: 35px;
   }
 }
 
-@media (min-width:992px) and (max-width:1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .cardCustom {
     margin-left: 69px;
   }
 }
 
-@media (min-width:1200px) and (max-width:1400px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .cardCustom {
     margin-left: 115px;
   }
 }
-
 
 @keyframes App-logo-spin {
   from {
