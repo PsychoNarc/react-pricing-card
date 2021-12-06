@@ -107,13 +107,37 @@ hr {
   li {
     font-size: 22px;
   }
-  .banner{
+  .banner {
     margin-left: 174px;
   }
 }
 
-@media screen and (max-width: 707px){
-  .banner{
+@media (min-width: 576px) and (max-width: 768px){
+  .banner {
     margin-left: 174px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+  .banner {
+    margin-left: 354px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .card-title {
+    font-size: 14px;
+  }
+  .card-price {
+    font-size: 30px;
+  }
+  .banner {
+    margin-left: 13px;
+    padding: 4px;
+    font-size: 10px;
+  }
+  .period2{
+    font-size: 17px;
+    margin-top: -24px;
   }
 }

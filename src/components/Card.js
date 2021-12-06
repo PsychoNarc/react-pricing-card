@@ -3,7 +3,7 @@ import "./Card.css";
 
 export const Card = ({ title, price, redactedPrice, para, popular, features = [] }) => {
   return (
-    <div className="col-lg-4">
+    <div className="col-12 col-lg-4">
       <div className="card mb-5 mb-lg-0">
         <div className="card-body d-flex flex-column">
           <h5 className="card-title text-muted text-uppercase text-left">
