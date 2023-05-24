@@ -4,7 +4,7 @@ import { Card } from "./components/Card";
 function App() {
   const plans = [
     {
-      title: "Personal",
+      title: "Personal Testeds",
       price: 9,
       redactedPrice: 11.99,
       para: "Perfect for when you want to host your personal blog or a hobby side project.",
@@ -12,7 +12,7 @@ function App() {
         "2 Core Xeon CPU",
         "1 GB RAM",
         "30 GB SSD",
-        "1 TB Transfer",
+        "1 TB Transfèr",
         "99.9% Uptime",
       ],
     },
